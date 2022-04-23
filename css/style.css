@@ -126,14 +126,6 @@ p{
     color: #000;
     font-size: 20px;
 }
-@media (min-width: 375px)and(max-width: 782px){
-    header h2{
-        font-size: 0px;
-    }
-    header  ul{
-        display: none;
-    }
-}
 /* start style services */
 .services{
     height: 100vh;
@@ -162,6 +154,9 @@ p{
     margin-bottom: 15px;
     height: 300px;
     transition: 0.5s ease;
+}
+.services .box:hover, .portfolio .card:hover{
+    transform: scale(1.1);
 }
 .container-two .box .fa-brands{
     display: inline-block;
@@ -208,6 +203,7 @@ p{
     width: 25%;
     margin-bottom: 15px;
     height: 340px;
+    transition: all 0.5s
 }
 .portfolio .card img{
     width: 100%;
